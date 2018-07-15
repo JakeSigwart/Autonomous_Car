@@ -56,7 +56,7 @@ Other versions have not been tested with the repository code. To download and in
   * Adafruit MMA8451
   * Adafruit Sensor
   * NewPing (1.9.0)
-  Add zip libraries from the Arduino IDE. Upload the Arduino code found in this repository to the Arduino Uno.
+ Add zip libraries from the Arduino IDE. Upload the Arduino code found in this repository to the Arduino Uno.
   
  ### Hardware Setup
   
