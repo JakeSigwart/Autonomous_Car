@@ -1,5 +1,5 @@
 # Autonomous_Car
-This project consists of a Raspberry Pi controlled RC car that utilizes machine learning to follow lines. A Raspberry Pi 3B was used to control a 1/10th scale Exceed RC truck. The program, written in python, allows for manual and autonomous modes. The autonomous potions features a Tensorflow model to compute motor controls.
+This project consists of a Raspberry Pi controlled RC car that utilizes machine learning to follow lines. A Raspberry Pi 3B was used to control a 1/10th scale Exceed RC truck. The program, written in python, allows for manual and autonomous modes. The autonomous potions features a Tensorflow-0.12.1 model to compute motor controls.
 ## Setup
 Install operation system and all required packages on the Radpberry Pi. Upload the code to the Arduino. Add the Arduino, Raspberry Pi and motor control board between the RC receiver and the motors.
 ### Hardware
@@ -50,6 +50,7 @@ Other versions have not been tested with the repository code. To download and in
  ```
  pi@raspberrypi: ~ $ pip3 install tensorflow-0.12.1-cp34-cp34m-linux_armv7l.whl
  ```
+ Newer versions of Tensorflow are available. This code has only been tested with Tensorflow-0.12.1.
  
  ### Arduino Libraries
  Download the folowing Arduino libraries:
