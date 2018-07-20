@@ -45,7 +45,7 @@ Install operation system and all required packages on the Radpberry Pi. Upload t
  * picamera (1.13)
  * pyserial (2.6)
  * RPi.GPIO (0.6.3)
- * six (1.8.0)
+ * matplotlib
  * tensorflow (0.12.1)
  * wheel (0.24.0)
 Other versions have not been tested with the repository code. To download and install Tensorflow, run the following command:
