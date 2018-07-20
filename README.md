@@ -7,6 +7,7 @@ Install operation system and all required packages on the Radpberry Pi. Upload t
  * Raspberry Pi 3B
  * Micro SD Card (I recommend 32GB)
  * Arduino Uno
+ * Computer with Arduino IDE, Disk Imager and VNC Viewer software
  * Adafruit PCA9685 Motor Control Board
  * Adafruit MMA8451 Accelerometer
  * Raspberry Pi Camera
@@ -14,6 +15,7 @@ Install operation system and all required packages on the Radpberry Pi. Upload t
  * Push Buttons
  * Assorted Wires
  * Battery Pack and micro USB adapter (5V and 2+ Amp output)
+ 
  Using the Raspberry Pi as a Computer:
  * Monitor with HDMI port
  * USB Bluetooth Combined Keyboard and Mouse
@@ -61,7 +63,7 @@ Other versions have not been tested with the repository code. To download and in
  Add zip libraries from the Arduino IDE. Upload the Arduino code found in this repository to the Arduino Uno.
   
  ### Hardware Setup
-  
+  coming soon...
  
  
  
