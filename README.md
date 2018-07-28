@@ -32,7 +32,7 @@ Install operation system and all required packages on the Radpberry Pi. Upload t
   ```
  pi@raspberrypi: ~ $ python3
  ```
- Python version 3.5.3 was used in this project. Install all python packages required for this project.
+ Python version 3.4 was used in this project. Install all python packages required for this project.
  ```
  pi@raspberrypi: ~ $ sudo apt-get install python3-pip
  ```
