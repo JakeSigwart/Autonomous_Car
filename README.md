@@ -49,7 +49,7 @@ Install operation system and all required packages on the Radpberry Pi. Upload t
 
 To download and install Tensorflow, run the following command:
  ```
- pi@raspberrypi: ~ $ pip3 install tensorflow
+ pi@raspberrypi: ~ $ pip3 install tensorflow-0.12.1-cp34-cp34m-linux_armv7l.whl
  ```
  Newer versions of Tensorflow are available. This code has only been tested with Tensorflow-0.12.1.
  
