@@ -64,7 +64,7 @@ To download and install Tensorflow, run the following command:
  ### Car and Track
  A track was created by applying white tape to asphalt for high contrast. Data were collected while manually steering the car on the track.
  
- ![alt text](https://github.com/JakeSigwart/Autonomous_Car/20180720_115619[1].jpg)
+ ![alt text](https://github.com/JakeSigwart/Autonomous_Car/blob/master/20180720_115619%5B1%5D.jpg)
  
  
  
