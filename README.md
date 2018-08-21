@@ -61,8 +61,10 @@ To download and install Tensorflow, run the following command:
   
  Add zip libraries from the Arduino IDE. Upload the Arduino code found in this repository to the Arduino Uno.
   
- ### Hardware Setup
-  coming soon...
+ ### Car and Track
+ A track was created by applying white tape to asphalt for high contrast. Data were collected while manually steering the car on the track.
+ 
+ ![alt text](https://github.com/JakeSigwart/Autonomous_Car/20180720_115619[1].jpg)
  
  
  
