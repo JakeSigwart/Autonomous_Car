@@ -62,12 +62,12 @@ To download and install Tensorflow, run the following command:
  Add zip libraries from the Arduino IDE. Upload the Arduino code found in this repository to the Arduino Uno.
   
  ### Car and Track
- A track was created by applying white tape to asphalt for high contrast. Data were collected while manually steering the car on the track.
+ A track was created by applying white tape to asphalt for high contrast. Data were collected while manually steering the car on the track. The goal was to train the car to stay on the path using tensorflow.
  
  ![alt text](https://github.com/JakeSigwart/Autonomous_Car/blob/master/20180720_115619%5B1%5D.jpg)
  
+ ### Results
+ Training was tedious, having to be done with small batches and few iterations before saving the model. Training sessions longer than about 30 batches caused the Pi to crash unexpectedly. The results of the training were disappointing as the model anticipated low or zero speed and centered steering for all image inputs. This was the result despite removing all zero-throttle data points.
  
- 
- 
-
-
+ ### Conclusions
+ A more diverse and larger training set may be required to improve results. The learning rate may have to be decreased. More thorough checks have to be in place to remove data points collected when the car is stationary. The acceleration and sonar data are not utalized in the tensorflow graph. The additional data may improve results.
